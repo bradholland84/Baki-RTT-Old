@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+ <!--[if IE 6]>
+<link href="http://courses.washington.edu/otap/super_design/ie6_ultimate_super.css" type="text/css" rel="stylesheet" media="screen"/>
+<![endif]-->
+
+
+<!--[if !IE 6]><!-->
+<link href="http://courses.washington.edu/otap/super_design/ultimate_super.css" type="text/css" rel="stylesheet" media="screen"/>
+<!--<![endif]-->
+
+  <title>Tool Description</title>
+</head>
+
+
+<body>
+
+<div id="containerGray">
+<div id="pageHeader">
+<h1>OTAP <br />
+  Ottoman Text Archive Project</h1>
+       </div>
+</div>
+
+<div id="subBannerGray">
+<div id="subHeader">
+<h2>Tool Description</h2>
+       </div>
+</div>
+ 
+<div id="MainGray">
+
+<h3>Description</h3>
+
+<p>
+For each of the control buttons on the Reversible Transcription Intake page (e.g., Ottoman Arabic),
+there is a php script that is invoked when the button is clicked. The scripts are passed the contents
+of the Input Text Area and the contents of the Metadata fields and return the formatted output. These
+script files are as follows:
+</p>
+<blockquote><em>
+reverse_ottoman_arabic.php<br/>
+reverse_ottoman_latin.php<br/>
+reverse_ottoman_turkish.php<br/>
+reverse_ottoman_cyrillic.php<br/>
+reverse_xml.php
+</em></blockquote>
+<p>
+Each of these scripts works in a very similar fashion. Each loads a file of substitution rules that are
+used to perform the transcription. Any tags (e.g., "&lt;italic&gt;") in the input text area are removed and saved
+for later reinsertion. This is also true of html entity references (e.g., "#&1576;"). Both of these are removed
+so the application of the substitution rules will not mangle them. Incidental whitespace in the input is
+simply discarded. The substitution rules are then applied. The rules are in the form:
+</p>
+<blockquote>
+"B7" -> "+1576;", /* Arabic Letter Beh */
+</blockquote>
+<p>
+In this example, a "B7" in the input will be replaced by "+1576;" which is an entity reference for the
+Arabic Letter Beh. The "+" will be replaced by "#&" right before the final output. "*" and "**" are used to
+mark line breaks and line group breaks respectively. Line breaks are done with div tags and line groups
+have a p tag surrounding the groups of lines, each with its own div tag. The code in each script
+is commented if more detail is needed about its specific operation.
+</p>
+<p>
+In the file of substitution rules, the rules are listed in the order they will be applied, separated by commas. Anything between "/*" and "*/" is a comment and can used to add documentation. Each part of the rule is in quotes so that white space in the input can be interpreted correctly as needed. These are two distinct substitution rules:
+</p>
+<blockquote>
+" B7" -> " +1576;",<br/>
+"B7" -> "+1576;",
+</blockquote>
+<p>
+The rules are applied in the order they appear in the rules file. When adding rules, one must consider where
+to order them in the list. In the two rules shown above, applying the rule without the space first would almost
+certainly prevent the one with the space from ever being applied.
+</p>
+<p>
+The rules files are as follows:
+</p>
+<blockquote><em>
+ottoman_arabic_rules.txt<br/>
+ottoman_cyrillic_rules.txt<br/>
+ottoman_latin_rules.txt<br/>
+ottoman_turkish_rules.txt
+</em></blockquote>
+<p>
+The XML php script uses the same rules file as the Ottoman Arabic. There is also a set of rules in the file
+"dynamic_chart_rules.txt". This is used to dynamically generate a table of all the substitution rules with a
+brief descriptive note. This chart is intended primarily for debugging purposes for the person modifying or
+adding rules to the transcription rules files.
+</p>
+
+<h3>Functional Files</h3>
+<p>
+A complete list of the functional files (with a descriptive note) is as follows:
+</p>
+<blockquote>
+<em>reverse_tool_intake.html</em><br/>
+&nbsp;&nbsp;The intake page where text is entered to get a reverse transcription.
+</blockquote>
+
+<p>
+<b>PHP scripts:</b>
+</p>
+<blockquote>
+<em>reverse_ottoman_arabic.php</em><br/>
+&nbsp;&nbsp;Script to return Ottoman Arabic.<br/>
+<em>reverse_ottoman_latin.php</em><br/>
+&nbsp;&nbsp;Script to return Ottoman Latin.<br/>
+<em>reverse_ottoman_turkish.php</em><br/>
+&nbsp;&nbsp;Script to return Turkish.<br/>
+<em>reverse_ottoman_cyrillic.php</em><br/>
+&nbsp;&nbsp;Script to return the Cyrillic output. This currently in development.<br/>
+<em>reverse_xml.php</em><br/>
+&nbsp;&nbsp;Script to return XML. This currently in development.<br/>
+<em>functions.php</em><br/>
+&nbsp;&nbsp;Has a couple of auxiliary functions that are used in common by all the scripts<br/>
+&nbsp;&nbsp;for reading in the rules files.
+</blockquote>
+
+<p>
+<b>Substitution Rules text files:</b>
+</p>
+<blockquote><em>
+ottoman_arabic_rules.txt<br/>
+ottoman_cyrillic_rules.txt<br/>
+ottoman_latin_rules.txt<br/>
+ottoman_turkish_rules.txt<br/>
+dynamic_chart_rules.txt
+</em></blockquote>
+<p>
+These are very minimal stylesheets:
+</p>
+<blockquote><em>
+style_arabic.css<br/>
+style_cyrillic.css<br/>
+style_latin.css<br/>
+style_turkish.css
+</em></blockquote>
+
+<h3>Site Map</h3>
+
+<small>
+<div><b>&nbsp;http://courses.washington.edu/otap/reverse/reverse.html</b></div>
+&nbsp;&nbsp;&nbsp;First page of the Reverse Transcription Tool featuring a project description and a link to an article about reverse transcription.
+<blockquote>
+<div><b>http://courses.washington.edu/otap/reverse/reverse/o_Reverse_trans_article728.html</b></div>
+&nbsp;&nbsp;The above mentioned article.
+<div><b>http://courses.washington.edu/otap/reverse/intake/reverse_tool.html</b></div>
+&nbsp;&nbsp;Page with the following links for more information and link to the tool itself.
+<blockquote>
+<div><b>http://courses.washington.edu/otap/reverse/intake/getting_started.html</b></div>
+&nbsp;&nbsp;Instructions for using the reverse transcription tool.
+<div><b>http://courses.washington.edu/otap/reverse/intake/consonants_eng.html</b></div>
+&nbsp;&nbsp;Chart of consonant conversions in English order.
+<div><b>http://courses.washington.edu/otap/reverse/intake/consonants_arb.html</b></div>
+&nbsp;&nbsp;Chart of consonant conversions in Arabic order.
+<div><b>http://courses.washington.edu/otap/reverse/intake/vowels.html</b></div>
+&nbsp;&nbsp;Chart of vowel conversion codes.
+<div><b>http://courses.washington.edu/otap/reverse/intake/special_characters.html</b></div>
+&nbsp;&nbsp;Chart of special character codes.
+<div><b>http://courses.washington.edu/otap/reverse/intake/conversion_chart.php</b></div>
+&nbsp;&nbsp;Dynamically generated chart that displays all of the substitution rules.
+<div><b>http://courses.washington.edu/otap/reverse/intake/writing_arabic.html</b></div>
+&nbsp;&nbsp;Incomplete article.
+<div><b>http://courses.washington.edu/otap/reverse/intake/reverse_tool_intake.html</b></div>
+&nbsp;&nbsp;The intake page where text is entered to get a reverse transcription.	
+<blockquote>
+<div><b>http://courses.washington.edu/otap/reverse/intake/reverse_ottoman_arabic.php</b></div>
+&nbsp;&nbsp;Script to return Ottoman Arabic. Run this by clicking on the Ottoman Arabic button.
+<div><b>http://courses.washington.edu/otap/reverse/intake/reverse_ottoman_latin.php</b></div>
+&nbsp;&nbsp;Script to return Ottoman Latin. Run this by clicking on the Ottoman Latin button.
+<div><b>http://courses.washington.edu/otap/reverse/intake/reverse_ottoman_turkish.php</b></div>
+&nbsp;&nbsp;Script to return Turkish. Run this by clicking on the Turkish button.
+<div><b>http://courses.washington.edu/otap/reverse/intake/reverse_ottoman_cyrillic.php</b></div>
+&nbsp;&nbsp;Script to return the Other output. This currently in development. 
+<div><b>http://courses.washington.edu/otap/reverse/intake/reverse_xml.php</b></div>
+&nbsp;&nbsp;Script to return XML. This currently in development.
+</blockquote>
+</blockquote>
+</blockquote>
+
+</small>
+
+</div>
+
+<div id="footerGray">
+<div id="subFooter">
+<h4>Send email to: otap@u.washington.edu</h4>
+</div>
+</div>
+
+<div id="extraFooter">
+<img src="/otap/super_design/filler.jpg" alt="" />
+</div>
+
+<div id="disclaimerGray">
+<div id="disclaimer">
+<h4>Disclaimer</h4>
+<p>Non-commerical use of files on this site is allowed with attribution, all other uses are prohibited. <br />Accepting these restrictions is a condition of entering the website.</p>
+</div>
+</div>
+
+<div id="homeLink">
+<p class="homeP"><a id="homeA" href="http://courses.washington.edu/otap/index.html">Back to home</a></p>
+</div>
+
+</body>
+</html>

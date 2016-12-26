@@ -1,0 +1,591 @@
+/* digraphs */
+
+"{A=}" -> "+194;",
+"{a=}" -> "+226;",
+"{A=}" -> "+256;",
+"{a=}" -> "+257;",
+"{a-}" -> "+259;",
+"{C,}" -> "+199;",
+"{c,}" -> "+231;",
+"{D!}" -> "+7692;",
+"{d!}" -> "+7693;",
+"{e.}" -> "+279;",
+"{G=}" -> "+286;",
+"{g=}" -> "+287;",
+"{G.}" -> "+288;",
+"{g.}" -> "+289;",
+"{H!}" -> "+7716;",
+"{h!}" -> "+7717;",
+"{H-}" -> "+7722;",
+"{h-}" -> "+7830;",
+"{I=}" -> "+206;",
+"{i=}" -> "+238;",
+"{I=}" -> "+298;",
+"{i=}" -> "+299;",
+"{i-}" -> "+301;",
+"{I.}" -> "+304;",
+"{i.}" -> "+305;",
+"{J}" -> "+1688;",
+"{j}" -> "+1688;",
+"{K!}" -> "+7730;",
+"{k!}" -> "+7731;",
+"{N=}" -> "+209;",
+"{n=}" -> "+241;",
+"{O:}" -> "+214;",
+"{o:}" -> "+246;",
+"{O=}" -> "+212;",
+"{o=}" -> "+244;",
+"{O=}" -> "+232;",
+"{o=}" -> "+233;",
+"{S,}" -> "+350;",
+"{s,}" -> "+351;",
+"{S!}" -> "+7778;",
+"{s!}" -> "+7779;",
+"{S-}" -> "S+818;",
+"{s-}" -> "s+818;",
+"{T!}" -> "+7788;",
+"{t!}" -> "+7789;",
+"{U:}" -> "+220;",
+"{u:}" -> "+252;",
+"{U=}" -> "+219;",
+"{u=}" -> "+251;",
+"{U=}" -> "+362;",
+"{u=}" -> "+363;",
+"{Z.}" -> "+379;",
+"{z.}" -> "+380;",
+"{Z!}" -> "+7726;",
+"{z!}" -> "+7727;",
+"{Z-}" -> "+7828;",
+"{z-}" -> "+7829;",
+
+"{*}" -> "+704;",
+"{@}" -> "+64;",
+"{--}" -> "+814;",
+"{..}" -> "+903;",
+
+/* ARABIC DEFINITE ARTICLE */
+
+"l2D" -> "D",
+"l2d" -> "d",
+"l2D3" -> "D3",
+"l2d3" -> "d3",
+"l2R" -> "R",  
+"l2r" -> "r",
+"l2S" -> "S",
+"l2s" -> "s", 
+"l2S2" -> "S2",  
+"l2s2 -> "s2",
+"l2S3" -> "S3", 
+"l2s3" -> "s3", 
+"l2S5" -> "S5", 
+"l2s5" -> "s5", 
+"l2T" -> "T",
+"l2t" -> "t",
+"l2T3" -> "T3", 
+"l2t3" -> "t3",
+"l2Z" -> "Z",
+"l2z" -> "z",
+"l2Z5" -> "Z5",
+"l2z5" -> "z5",
+"l2Z4" -> "Z4",
+"l2z4" -> "z4",
+"l2Z3" -> "Z3",
+"l2z3" -> "z3",
+"l2N" -> "2N",
+"l2n" -> "2n",
+
+/* Allah glyph */
+"Allah" -> "All+257;h",
+"A4llwa6h" -> "All+257;h",
+"lilwa6h" -> "All+257;h",
+
+/* Shadda */
+
+"w2" -> "<w2>",
+"bw" -> "bb", /* Arabic Shadda */
+"cw" -> "cc", /* Arabic Shadda */
+"dw" -> "dd", /* Arabic Shadda */
+"fw" -> "ff", /* Arabic Shadda */
+"gw" -> "gg", /* Arabic Shadda */
+"hw" -> "hh", /* Arabic Shadda */
+"jw" -> "jj", /* Arabic Shadda */
+"kw" -> "kk", /* Arabic Shadda */
+"lw" -> "ll", /* Arabic Shadda */
+"mw" -> "mm", /* Arabic Shadda */
+"nw" -> "nn", /* Arabic Shadda */
+"pw" -> "pp", /* Arabic Shadda */
+"rw" -> "rr", /* Arabic Shadda */
+"sw" -> "ss", /* Arabic Shadda */
+"tw" -> "tt", /* Arabic Shadda */
+"vw" -> "vv", /* Arabic Shadda */
+"ww" -> "ww", /* Arabic Shadda */
+"yw" -> "yy", /* Arabic Shadda */
+"zw" -> "zz", /* Arabic Shadda */
+
+/* CONSONANTS */
+
+"B7" -> "P",
+"b7" -> "p",
+"B" -> "B",
+"b" -> "b",
+
+"C2" -> "+199;", /* Latin Capital Letter C With Cedilla */
+"c2" -> "+231;", /* Latin Small Letter C With Cedilla */
+"C7" -> "+199;", /* Latin Capital Letter C With Cedilla */
+"c7" -> "+231;", /* Latin Small Letter C With Cedilla */
+"c" -> "c",
+"C" -> "C",
+
+"D2" -> "+7692;", /* Latin Capital Letter D With Dot Below */
+"d2" -> "+7693;", /* Latin Small Letter D With Dot Below */
+"d3" -> "+7693;", /* Latin Small Letter D With Dot Below */
+"D3" -> "+7692;", /* Latin Capital Letter D With Dot Below */
+"d6" -> "+7789;", /* Latin Small Letter T With Dot Below */
+"D6" -> "+7788;", /* Latin Capital Letter T With Dot Below */
+"D7" -> "T",
+"d7" -> "t",
+"D" -> "D",
+"d" -> "d",
+
+"F" -> "F",
+"f" -> "f",
+
+"G2" -> "+286;", /* Latin Capital Letter G With Breve */
+"g2" -> "+287;", /* Latin Small Letter G With Breve */
+"G3" -> "K",
+"g3" -> "k",
+"G4" -> "+288;", /* Latin Capital Letter G With Dot Above */
+"g4" -> "+289;", /* Latin Small Letter G With Dot Above */
+"g5" -> "+289;", /* Latin Small Letter G With Dot Above */
+"G5" -> "+288;", /* Latin Capital Letter G With Dot Above */
+"g6" -> "g",
+"G6" -> "G",
+"g" -> "g",
+"G" -> "G",
+
+"H2" -> "+7716;", /* Latin Capital Letter H With Dot Below */
+"h2" -> "+7717;", /* Latin Small Letter H With Dot Below */
+"H3" -> "+7716;", /* Latin Capital Letter H With Dot Below */
+"h3" -> "+7717;", /* Latin Small Letter H With Dot Below */
+"h5" -> "+7830;", /* Latin Small Letter H With Line Below */
+"H5" -> "+7722;", /* Latin Capital Letter H With Breve Below */
+"h" -> "h",
+"H" -> "H",
+
+"J" -> "J",
+"j" -> "j",
+
+"K2" -> "+7730;", /* Latin Capital Letter K With Dot Below */
+"k2" -> "+7731;", /* Latin Small Letter K With Dot Below */
+"K3" -> "+7730;", /* Latin Capital Letter K With Dot Below */
+"k3" -> "+7731;", /* Latin Small Letter K With Dot Below */
+"K" -> "K",
+"k" -> "k",
+
+"L" -> "L",
+"l2" -> "",
+"l" -> "l",
+
+"M" -> "M",
+"m" -> "m",
+
+"N2" -> "+209;", /* Latin Capital Letter N With Tilde */
+"n2" -> "+241;", /* Latin Small Letter N With Tilde */
+"N6" -> "+209;", /* Latin Capital Letter N With Tilde */
+"n6" -> "+241;", /* Latin Small Letter N With Tilde */
+"N" -> "N",
+"n" -> "n",
+
+"P" -> "P",
+"p" -> "p",
+
+"R" -> "R",
+"r" -> "r",
+
+"S2" -> "+350;", /* Latin Capital Letter S With Cedilla */
+"s2" -> "+351;", /* Latin Small Letter S With Cedilla */
+"S3" -> "+7778;", /* Latin Capital Letter S With Dot Below */
+"s3" -> "+7779;", /* Latin Small Letter S With Dot Below */
+"S4" -> "S",
+"s4" -> "s",
+"S5" -> "+348;", 
+"s5" -> "+349;",
+"S" -> "S",
+"s" -> "s",
+
+"T2" -> "+7788;", /* Latin Capital Letter T With Dot Below */
+"t2" -> "+7789;", /* Latin Small Letter T With Dot Below */
+"T3" -> "+7788;", /* Latin Capital Letter T With Dot Below */
+"t3" -> "+7789;", /* Latin Small Letter T With Dot Below */
+"T6" -> "T",
+"t6" -> "t",
+"T7" -> "T",
+"t7" -> "t",
+"T" -> "T",
+"t" -> "t",
+
+"V2" -> "+220;", /* Latin Capital Letter U With Diaeresis */
+"v2" -> "+252;", /* Latin Small Letter U With Diaeresis */
+"V3" -> "U",
+"v3" -> "u",
+"V" -> "V",
+"v" -> "v",
+
+"Y" -> "Y",
+"y" -> "y",
+
+"Z2" -> "+7826;", /* Latin Capital Letter Z With Dot Below */
+"z2" -> "+7827;", /* Latin Small Letter Z With Dot Below */
+"Z3" -> "+7826;", /* Latin Capital Letter Z With Dot Below */
+"z3" -> "+7827;", /* Latin Small Letter Z With Dot Below */
+"Z4" -> "+379;",  /* Latin Capital Letter Z With Dot Above */
+"z4" -> "+380;", /* Latin Small Letter Z With Dot Above */
+"Z5" -> "+7828;", /* Latin Capital Letter Z With Line Below */
+"z5" -> "+7829;", /* Latin Small Letter Z With Line Below */
+"z" -> "z",
+"Z" -> "Z",
+
+/* INITIAL VOWELS */
+
+" A0" -> " A",
+" a0" -> " a",
+" A1" -> " +256;", /* Latin Capital Letter A With Macron */
+" a1" -> " +257;", /* Latin Small Letter A With Macron */
+" A2" -> " +256;", /* Latin Capital Letter A With Macron */
+" a2" -> " +257;", /* Latin Small Letter A With Macron */
+" A3" -> " A",
+" a3" -> " a",
+" A5" -> " A",
+" a5" -> " a",
+" A6" -> " A",
+" a6" -> " a",
+" A7" -> " A",
+" a7" -> " a",
+" A8" -> " A",
+" a8" -> " a",
+" A9" -> " A",
+" a9" -> " a",
+" A" -> " A",
+" a" -> " a",
+" E0" -> " E",
+" e0" -> " e",
+" E2" -> " E",
+" e2" -> " e",
+" E3" -> " E",
+" e3" -> " e",
+" E4" -> " +278;", /* Latin Capital Letter E With Dot Above */
+" e4" -> " +279;", /* Latin Small Letter E With Dot Above */
+" E5" -> " E",
+" e5" -> " e",
+" E6" -> " E",
+" e6" -> " e",
+" E7" -> " E",
+" e7" -> " e",
+" E8" -> " E",
+" e8" -> " e",
+" E9" -> " E",
+" e9" -> " e",
+" E" -> " E",
+" e" -> " e",
+" I0" -> " I",
+" i0" -> " +305;", /* Latin Small Letter Dotless I */
+" I1" -> " +298;", /* Latin Capital Letter I With Macron */
+" i1" -> " +299;", /* Latin Small Letter I With Macron */
+" I2" -> " +304;", /* Latin Capital Letter I With Dot Above */
+" i2" -> " i", /* Latin Small Letter Dotless I */
+" i3" -> " +305;", /* Latin Small Letter Dotless I */  
+" I3" -> " I",
+" I4" -> " +304;", /* Latin Capital Letter I With Dot Above */ 
+" i4" -> " i",
+" I5" -> " I",
+" i5" -> " i",
+" I6" -> " I",
+" i6" -> " i",
+" I7" -> " I",
+" i7" -> " i",
+" I8" -> " I",
+" i8" -> " i",
+" I9" -> " I",
+" i9" -> " i",
+" I" -> " I",
+" i" -> " i",
+" O0" -> " +214;", /* Latin Capital Letter O With Diaeresis */
+" o0" -> " +246;", /* Latin Small Letter O With Diaeresis */
+" O1" -> " O",
+" o1" -> " o",
+" O2" -> " O",
+" o2" -> " o",
+" O3" -> " +214;", /* Latin Capital Letter O With Diaeresis */
+" o3" -> " +246;", /* Latin Small Letter O With Diaeresis */
+" O4" -> " +332;", /* Latin Capital Letter O With Macron */
+" o4" -> " +333;", /* Latin Small Letter O With Macron */
+" o5" -> " o",
+" O5" -> " O",
+" o6" -> " o",
+" O6" -> " O",
+" o7" -> " +246;", /* Latin Small Letter O With Diaeresis */
+" O7" -> " +214;", /* Latin Capital Letter O With Diaeresis */
+" o8" -> " o",
+" O8" -> " O",
+" o9" -> " o",
+" O9" -> " O",
+" o0" -> " o",
+" O0" -> " O",
+" U0" -> " +220;", /* Latin Capital Letter U With Diaeresis */
+" u0" -> " +252;", /* Latin Small Letter U With Diaeresis */
+" U1" -> " U",
+" u1" -> " u",
+" U2" -> " +220;", /* Latin Capital Letter U With Diaeresis */
+" u2" -> " +252;", /* Latin Small Letter U With Diaeresis */
+" U3" -> " +220;", /* Latin Capital Letter U With Diaeresis */
+" u3" -> " +252;", /* Latin Small Letter U With Diaeresis */
+" U4" -> " U",
+" u4" -> " u",
+" U5" -> " +220;", /* Latin Capital Letter U With Diaeresis */
+" u5" -> " +252;", /* Latin Small Letter U With Diaeresis */
+" U6" -> " U",
+" u6" -> " u",
+" U7" -> " +220;", /* Latin Capital Letter U With Diaeresis */
+" u7" -> " +252;", /* Latin Small Letter U With Diaeresis */
+" U8" -> " U",
+" u8" -> " u",
+" U9" -> " +220;", /* Latin Capital Letter U With Diaeresis */
+" u9" -> " +252;", /* Latin Small Letter U With Diaeresis */
+" U0" -> " U",
+" u0" -> " u",
+
+/* FINAL VOWELS */
+
+"A0 " -> "A ",
+"a0 " -> "a ",
+"A1 " -> "+256; ", /* Latin Capital Letter A With Macron */
+"a1 " -> "+257; ", /* Latin Small Letter A With Macron */
+"A2 " -> "+256; ", /* Latin Capital Letter A With Macron */
+"a2 " -> "+257; ", /* Latin Small Letter A With Macron */
+"A3 " -> "A ",
+"a3 " -> "a ",
+"A4 " -> "A ",
+"a4 " -> "a ",
+"A5 " -> "A ",
+"a5 " -> "a ",
+"A6 " -> "A ",
+"a6 " -> "a ",
+"A7 " -> "A ",
+"a7 " -> "a ",
+"A8 " -> "A ",
+"a8 " -> "a ",
+"A9 " -> "A ",
+"a9 " -> "a ", 
+"A " -> "A ",
+"a " -> "a ", 
+"E0 " -> "E ",
+"e0 " -> "e ",
+"E2 " -> "E ",
+"e2 " -> "e ",
+"E3 " -> "E ",
+"e3 " -> "e ",
+"E4 " -> "+278; ", /* Latin Capital Letter E With Dot Above */
+"e4 " -> "+279; ", /* Latin Small Letter E With Dot Above */
+"E5 " -> "E ",
+"e5 " -> "e ",
+"E6 " -> "E ",
+"e6 " -> "an ",
+"E7 " -> "E ",
+"e7 " -> "en ",
+"E8 " -> "E ",
+"e8 " -> "un ",
+"E9 " -> "E ",
+"e9 " -> "in ",
+"E " -> "E ",
+"e " -> "e ",
+"I0 " -> "I ",
+"i0 " -> "+305; ", /* Latin Small Letter Dotless I */
+"I1 " -> "+298; ", /* Latin Capital Letter I With Macron */
+"i1 " -> "+299; ", /* Latin Small Letter I With Macron */
+"I2 " -> "+304; ", /* Latin Capital Letter I With Dot Above */
+"i2 " -> "+305; ", /* Latin Small Letter Dotless I */
+"I3 " -> "+298; ", /* Latin Capital Letter I With Macron */
+"i3 " -> "+299; ", /* Latin Small Letter I With Macron */
+"I4 " -> "+304; ", /* Latin Capital Letter I With Dot Above */
+"i4 " -> "i ",
+"I5 " -> "I ",
+"i5 " -> "+305; ", /* Latin Small Letter Dotless I */
+"I6 " -> "I ",
+"i6 " -> "i ",
+"I7 " -> "I ",
+"i7 " -> "+305; ",
+"I8 " -> "I ",
+"i8 " -> "i ",
+"I9 " -> "I ",
+"i9 " -> "i ",
+"I " -> "I ",
+"i " -> "i ",
+"O0 " -> "+214; ", /* Latin Capital Letter O With Diaeresis */
+"o0 " -> "+246; ", /* Latin Small Letter O With Diaeresis */
+"O1 " -> "O ",
+"o1 " -> "o ",
+"O2 " -> "O ",
+"o2 " -> "o ",
+"O3 " -> "+214; ", /* Latin Capital Letter O With Diaeresis */
+"o3 " -> "+246; ", /* Latin Small Letter O With Diaeresis */
+"O4 " -> "+332; ", /* Latin Capital Letter O With Macron */
+"o4 " -> "+333; ", /* Latin Small Letter O With Macron */
+"o5 " -> "o ",
+"O5 " -> "O ",
+"o6 " -> "o ",
+"O6 " -> "O ",
+"o7 " -> "+246; ", /* Latin Small Letter O With Diaeresis */
+"O7 " -> "+214; ", /* Latin Capital Letter O With Diaeresis */
+"o8 " -> "o ",
+"O8 " -> "O ",
+"o9 " -> "o ",
+"O9 " -> "O ",
+"o " -> "o ",
+"O " -> "O ",
+"u0 " -> "+252; ", /* Latin Small Letter U With Diaeresis */
+"U0 " -> "+220; ", /* Latin Capital Letter U With Diaeresis */
+"u1 " -> "+363; ", /* Latin Small Letter U With Macron */
+"U1 " -> "+362; ", /* Latin Capital Letter U With Macron */
+"U2 " -> "+220; ", /* Latin Capital Letter U With Diaeresis */
+"u2 " -> "+252; ", /* Latin Small Letter U With Diaeresis */
+"U3 " -> "+362; ", /* Latin Capital Letter U With Macron */
+"u3 " -> "+363; ", /* Latin Small Letter U With Macron */
+"u4 " -> "u ",
+"U4 " -> "U ",
+"u5 " -> "u ",
+"U5 " -> "U ",
+"u6 " -> "u ", 
+"U6 " -> "U ",
+"u7 " -> "+252; ", /* Latin Small Letter U With Diaeresis */
+"U7 " -> "+220; ", /* Latin Capital Letter U With Diaeresis */
+"u8 " -> "u ",  /* ya that converts to u */
+"u9 " -> "+252; ", /* Latin Small Letter U With Diaeresis */
+"U9 " -> "+220; ", /* Latin Capital Letter U With Diaeresis */
+"u " -> "u ",
+"U " -> "U ",
+
+/* MEDIAL VOWELS */
+
+"A0" -> "A",
+"a0" -> "a",
+"A1" -> "+256;", /* Latin Capital Letter A With Macron */
+"a1" -> "+257;", /* Latin Small Letter A With Macron */
+"A2" -> "+256;", /* Latin Capital Letter A With Macron */
+"a2" -> "+257;", /* Latin Small Letter A With Macron */
+"A3" -> "A",
+"a3" -> "a",
+"A4" -> "A",
+"a4" -> "a",
+"A5" -> "A",
+"a5" -> "a",
+"A6" -> "A",
+"a6" -> "a",
+"A7" -> "A",
+"a7" -> "a",
+"A8" -> "A",
+"a8" -> "a",
+"A9" -> "A",
+"a9" -> "a", 
+"A" -> "A",
+"a" -> "a", 
+"E0" -> "E",
+"e0" -> "e",
+"E1" -> "+278;",
+"e1" -> "+279;",
+"E2" -> "E",
+"e2" -> "e",
+"E3" -> "E",
+"e3" -> "e",
+"E4" -> "+278;", /* Latin Capital Letter E With Dot Above */
+"e4" -> "+279;", /* Latin Small Letter E With Dot Above */
+"E5" -> "E",
+"e5" -> "e",
+"E6" -> "E",
+"e6" -> "e",
+"E7" -> "E",
+"e7" -> "e",
+"E8" -> "E",
+"e8" -> "e",
+"E9" -> "E",
+"e9" -> "e",
+"E" -> "E",
+"e" -> "e",
+"I0" -> "I",
+"i0" -> "+305;", /* Latin Small Letter Dotless I */
+"I1" -> "+298;", /* Latin Capital Letter I With Macron */
+"i1" -> "+299;", /* Latin Small Letter I With Macron */
+"I2" -> "+304;", /* Latin Capital Letter I With Dot Above */
+"i2" -> "+305;", /* Latin Small Letter Dotless I */
+"I3" -> "+298;", /* Latin Capital Letter I With Macron */
+"i3" -> "+299;", /* Latin Small Letter I With Macron */
+"I4" -> "I",
+"i4" -> "i",
+"I5" -> "I",
+"i5" -> "i",
+"I6" -> "I",
+"i6" -> "i",
+"I7" -> "I",
+"i7" -> "+305;",
+"I8" -> "I",
+"i8" -> "i",
+"I9" -> "I",
+"i9" -> "i",
+"I" -> "I",
+"i" -> "i",
+"O0" -> "+214;", /* Latin Capital Letter O With Diaeresis */
+"o0" -> "+246;", /* Latin Small Letter O With Diaeresis */
+"O1" -> "O",
+"o1" -> "o",
+"O2" -> "O",
+"o2" -> "o",
+"O3" -> "+214;", /* Latin Capital Letter O With Diaeresis */
+"o3" -> "+246;", /* Latin Small Letter O With Diaeresis */
+"O4" -> "+332;", /* Latin Capital Letter O With Macron */
+"o4" -> "+333;", /* Latin Small Letter O With Macron */
+"o5" -> "o",
+"O5" -> "O",
+"o6" -> "o",
+"O6" -> "O",
+"o7" -> "+246;", /* Latin Small Letter O With Diaeresis */
+"O7" -> "+214;", /* Latin Capital Letter O With Diaeresis */
+"o8" -> "o",
+"O8" -> "O",
+"o9" -> "o",
+"O9" -> "O",
+"o" -> "o",
+"O" -> "O",
+"u0" -> "+252;", /* Latin Small Letter U With Diaeresis */
+"U0" -> "+220;", /* Latin Capital Letter U With Diaeresis */
+"U1" -> "+362;", /* Latin Capital Letter U With Macron */
+"u1" -> "+363;", /* Latin Small Letter U With Macron */
+"U2" -> "+220;", /* Latin Capital Letter U With Diaeresis */
+"u2" -> "+252;", /* Latin Small Letter U With Diaeresis */
+"U3" -> "+362;", /* Latin Capital Letter U With Macron */
+"u3" -> "+363;", /* Latin Small Letter U With Macron */
+"u4" -> "u",
+"U4" -> "U",
+"u5" -> "u",
+"U5" -> "U",
+"u6" -> "u",
+"U6" -> "U",
+"u7" -> "+252;", /* Latin Small Letter S With Caron */
+"U7" -> "+220;", /* Latin Capital Letter S With Caron */
+"u8" -> "u",  /* ya that converts to u */
+"u9" -> "+252;", /* Latin Small Letter U With Diaeresis */
+"U9" -> "+220;", /* Latin Capital Letter U With Diaeresis */
+"u" -> "u",
+"U" -> "U",
+
+/* SPECIAL */
+
+"-7" -> "-+252;",
+"-6" -> "-u",
+"-5" -> "-+305;",
+"-4" -> "-i",
+"-3" -> "-",
+"-2" -> "",
+"-1" -> "-",
+"'2" -> "+703;",
+"'3" -> "+704;",
+"'4" -> "'",
+"'5" -> "+0039;",

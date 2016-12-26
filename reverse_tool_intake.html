@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+ <!--[if IE 6]>
+<link href="http://courses.washington.edu/otap/super_design/ie6_ultimate_super.css" type="text/css" rel="stylesheet" media="screen"/>
+<![endif]-->
+
+
+<!--[if !IE 6]><!-->
+<link href="http://courses.washington.edu/otap/super_design/ultimate_super.css" type="text/css" rel="stylesheet" media="screen"/>
+<!--<![endif]-->
+
+  <title>Reversible Transcription Tool - Intake</title>
+<script type="text/javascript">
+function OnSubmitForm()
+{
+
+  if(document.pressed == 'Ottoman Arabic') {
+    document.myform.action ="reverse_ottoman_arabic.php";
+  	}
+
+  if(document.pressed == 'Ottoman Latin') {
+    document.myform.action ="reverse_ottoman_latin.php";
+  	}
+
+  if(document.pressed == 'Turkish') {
+    document.myform.action ="reverse_ottoman_turkish.php";
+  	}
+
+  if(document.pressed == 'Other') {
+    document.myform.action ="reverse_ottoman_turkish.php";
+  	}
+  	
+  if(document.pressed == 'XML') {
+    document.myform.action ="reverse_xml.php";
+  	}
+  	
+  return true;
+}
+
+</script>
+<style type="text/css">
+
+form > * {
+padding: 0;
+margin: 0;
+}
+
+fieldset {
+margin: 5px;
+}
+
+fieldset ul li {
+display: block;
+padding-top: 5px;
+}
+
+fieldset ul li label + input {
+float: right;
+display: inline;
+margin-right: 60%;
+}
+
+textarea {
+width: 873px;
+height: 500px;
+margin: 5px;
+}
+</style>
+</head>
+
+
+<body>
+
+<div id="containerGray">
+<div id="pageHeader">
+<h1>OTAP <br />
+  Ottoman Text Archive Project</h1>
+       </div>
+</div>
+
+<div id="subBannerGray">
+
+<div id="subHeader">
+<h2>Reversible Transcription Tool</h2>
+       </div>
+</div>
+ 
+<div id="MainGray">
+
+
+<h3>Reversible Transcription Intake</h3>
+
+<p>Back to <a href="getting_started.html">Getting Started</a></p>
+
+<form id="myform" name="myform" onsubmit="return OnSubmitForm();" method="post" enctype="multipart/form-data" action="">
+<fieldset>
+<legend>Metadata</legend>
+<ul>
+<li>
+<label for="title">Title:</label>
+<input type="text" name="title" id="title" />
+</li>
+<li>
+<label for="author">Author:</label>
+<input type="text" name="author" id="author" />
+</li>
+<li>
+<label for="date">Date of Text:</label>
+<input type="text" name="date" id="date" />
+</li>
+<li>
+<label for="responsibility">Responsibility:</label>
+<input type="text" name="responsibility" id="responsibility" />
+</li>
+</ul>
+</fieldset>
+<fieldset>
+<legend>Input Text Area</legend>
+<textarea id="area" rows="" cols="" name="area"></textarea>
+<br/><br/>
+<label for="file">or upload file:</label><input type="file" name="file" id="file" />
+</fieldset>
+
+<fieldset>
+<legend>Controls</legend>
+<ul style="list-style: none;">
+<li>
+<input type="submit" name="Submit" onclick="document.pressed=this.value" value="Ottoman Arabic" />
+
+<input type="submit" name="Submit" onclick="document.pressed=this.value" value="Ottoman Latin" />
+
+<input type="submit" name="Submit" onclick="document.pressed=this.value" value="Turkish" />
+
+<input type="submit" name="Submit" onclick="document.pressed=this.value" value="Other" />
+
+<input type="submit" name="Submit" onclick="document.pressed=this.value" value="XML" />
+</li>
+<li>
+<label for="size">Font Size:</label>
+<input type="text" name="size" id="size" value="24"/><br/>
+</li>
+<li>
+<input type="reset" />
+</li>
+</ul>
+</fieldset>
+
+</form>
+
+<div>
+<table border="1" cellpadding="10">
+<tr><th colspan="2">Examples:</th></tr>
+<tr>
+<th  style="width: 600px;"><p>cut and paste the following texts into the above window:</p></th>
+<th><p>image of corresponding original manuscript:</p></th>
+</tr>
+<tr>
+<td>
+<h3>excerpt from <i>&#350;&#257;h u Dervi&#351;</i> by G&#252;ft&#238; - 16c.</h3>
+<p><code>
+K3as3r-4 h5aya1lle0 dil-4 bi1 i4h5tiya1r * <br/>
+O2ldi7 bu6 a2yi1ni6le0 su0lwem s2u0ma1r ** <br/>
+C2arh5ile0 min ba'2d i2du7b7 a2s2ti1 * <br/>
+I2tmeye0 k3as3d-4 '2alem e5fra1s2ti1 **
+</code></p>
+</td>
+<td><a href="gufti_001.jpg"  rel="external"><img src="gufti_001.jpg" alt="Gufti" width="200" height="111"/></a></td>
+</tr>
+
+<tr>
+<td>
+<h3>excerpt from <i>Menamat of Murad II</i> by Murad II - 16c.</h3>
+<p><code>
+Se'2a1detlu6 pederu0m beyne'4l-3yak3az3a0da0 mu0s2a1hede0 o2ldu8kim * <br/>
+bir a3t gelu7r i2di6 ve cemi1'2 a2la1ti6 mu0kemw2el ya7ln6i0z gelu7r ya7ni0nda0 kimesne0 * <br/>
+yo6k3d7ur a5mw2a1 bir a3tdur ki8 go7ru0lmu0s2 degu0l nida1 geldi6kim bizim san6a7 * <br/>
+bah5s2i1s2 mizdu0r biz da7h5i6 bineriz a5ndan nida1 gelu7r ki8 bu6nun6 yiyecegi6 * <br/>
+du'2a1dur tesbi1h3du0r z5ikirdu0r benu0m se'2a1detu0m a3t a3lu6b7 bizi6 k3i0ble0den yan2a7 * <br/>
+getu6ru0r ferma1n sult3a1numun6 dur ** 
+</code></p>
+</td>
+<td><a href="menamat_001.jpg"  rel="external"><img src="menamat_001.jpg" alt="Menamat" width="200" height="111"/></a></td>
+</tr>
+
+<tr>
+<td>
+<h3>excerpt from a <i>Gazel</i> by Mihri - 15c.</h3>
+<p><code>
+Ni6ce0 ferya1da0 ve1re0 na1le0leru0m a2h san6a7 * <br/>
+Ni6ce0 '2arz4 i2de0yu0m h3a1lu0mi6 herga1h san6a7 ** <br/>
+<br/>
+I2s2i6du6b bu0lbu0l-4 s2eyda1 meger a2h-4 seh3eru0m * <br/>
+C2i7k3a7ru6b derd i2le0 dir a2h beni6 ve a2h san6a7 * <br/>
+[var. C2a1g4i0ru6b derd i2le0 dir a2h beni6 va1h san6a7 ] ** <br/>
+<br/>
+H3u0sn serma1ye0si6 e5lden gi6di6cek bir gu0n o2la0 * <br/>
+Bildu7re0 e5tdu7gini6 sevdi6gu0m Allah san6a7 ** <br/>
+<br/>
+Gu0n yu7zu0n6 burc-4 s2eref u3zre0 t3ulu1'2 e5tdu7gic2u7n * <br/>
+Gi6ce0ler s3ubh3a0 degin t3a7n6a0 k3i7lu6r ma1h san6a7 ** <br/>
+<br/>
+H5a1k i2der g4ayret o2du8 bu6 dil-4 miski1ni6 yak3u6b7 * <br/>
+Bi6le0 ya7ni0n6ca0 rak3i1b o2la0li7 hemra1h san6a7 ** <br/>
+<br/>
+Ni6ce0 sengi1n-1dilmis2sin ki8 e5s5er i2medi6 hi1c2 * <br/>
+'2A1s2i0k3-4 s2u1ri1de0ler a2h-4 seh3erga1h san6a7 ** <br/>
+<br/>
+Nev-1 cu0va1n i2tdi6 Zu0leyh5a1 gibi6 Mihri1 seni6 '2is2k3 * <br/>
+K3i0la0li7 lut3f i2le0 Yu1suf naz3ari6n s2a1h san6a7 **
+</code></p>
+</td>
+
+<td><a href="mihri_001.jpg"  rel="external"><img src="mihri_001.jpg" alt="Mihri" width="200" height="256"/></a></td>
+</tr>
+</table>
+
+</div>
+</div>
+
+<div id="footerGray">
+<div id="subFooter">
+<h4>Send email to: otap@u.washington.edu</h4>
+</div>
+</div>
+
+<div id="extraFooter">
+<img src="/otap/super_design/filler.jpg" alt="" />
+</div>
+
+<div id="disclaimerGray">
+<div id="disclaimer">
+
+<h4>Disclaimer</h4>
+<p>Non-commerical use of files on this site is allowed with attribution, all other uses are prohibited. <br />Accepting these restrictions is a condition of entering the website.</p>
+</div>
+</div>
+
+<div id="homeLink">
+<p class="homeP"><a id="homeA" href="http://courses.washington.edu/otap/index.html">Back to home</a></p>
+</div>
+
+</body>
+</html>

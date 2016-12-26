@@ -1,0 +1,596 @@
+/* Ottoman Arabic */
+
+/* digraphs */
+
+"{A=}" -> "",
+"{a=}" -> "",
+"{A=}" -> "",
+"{a=}" -> "",
+"{a-}" -> "",
+"{C,}" -> "",
+"{c,}" -> "",
+"{D!}" -> "",
+"{d!}" -> "",
+"{e.}" -> "",
+"{G=}" -> "",
+"{g=}" -> "",
+"{G.}" -> "",
+"{g.}" -> "",
+"{H!}" -> "",
+"{h!}" -> "",
+"{H-}" -> "",
+"{h-}" -> "",
+"{I=}" -> "",
+"{i=}" -> "",
+"{I=}" -> "",
+"{i=}" -> "",
+"{i-}" -> "",
+"{I.}" -> "",
+"{i.}" -> "",
+"{J}" -> "",
+"{j}" -> "",
+"{K!}" -> "",
+"{k!}" -> "",
+"{N=}" -> "",
+"{n=}" -> "",
+"{O:}" -> "",
+"{o:}" -> "",
+"{O=}" -> "",
+"{o=}" -> "",
+"{O=}" -> "",
+"{o=}" -> "",
+"{S,}" -> "",
+"{s,}" -> "",
+"{S!}" -> "",
+"{s!}" -> "",
+"{S-}" -> "",
+"{s-}" -> "",
+"{T!}" -> "",
+"{t!}" -> "",
+"{U:}" -> "",
+"{u:}" -> "",
+"{U=}" -> "",
+"{u=}" -> "",
+"{U=}" -> "",
+"{u=}" -> "",
+"{Z.}" -> "",
+"{z.}" -> "",
+"{Z!}" -> "",
+"{z!}" -> "",
+"{Z-}" -> "",
+"{z-}" -> "",
+
+"{*}" -> "",
+"{@}" -> "",
+"{--}" -> "",
+"{..}" -> "",
+
+/* ARABIC DEFINITE ARTICLE */
+
+"l2D" -> "+1604;", /* Arabic Letter Lam */
+"l2d" -> "+1604;", /* Arabic Letter Lam */
+"l2D3" -> "+1604;", /* Arabic Letter Lam */
+"l2d3" -> "+1604;", /* Arabic Letter Lam */
+"l2R" -> "+1604;", /* Arabic Letter Lam */
+"l2r" -> "+1604;", /* Arabic Letter Lam */
+"l2S2" -> "+1604;", /* Arabic Letter Lam */
+"l2s2 -> "+1604;", /* Arabic Letter Lam */
+"l2S3" -> "+1604;", /* Arabic Letter Lam */
+"l2s3" -> "+1604;", /* Arabic Letter Lam */
+"l2S5" -> "+1604;", /* Arabic Letter Lam */
+"l2s5" ->"+1604;", /* Arabic Letter Lam */
+"l2S" -> "+1604;", /* Arabic Letter Lam */
+"l2s" -> "+1604;", /* Arabic Letter Lam */
+"l2T" -> "+1604;", /* Arabic Letter Lam */
+"l2t" -> "+1604;", /* Arabic Letter Lam */
+"l2T3" -> "+1604;",/* Arabic Letter Lam */
+"l2t3" -> "+1604;", /* Arabic Letter Lam */
+"l2Z5" -> "+1604;", /* Arabic Letter Lam */
+"l2z5" -> "+1604;", /* Arabic Letter Lam */
+"l2Z4" -> "+1604;", /* Arabic Letter Lam */
+"l2z4" -> "+1604;", /* Arabic Letter Lam */
+"l2Z3" -> "+1604;", /* Arabic Letter Lam */
+"l2z3" -> "+1604;", /* Arabic Letter Lam */
+"l2Z" -> "+1604;", /* Arabic Letter Lam */
+"l2z" -> "+1604;", /* Arabic Letter Lam */
+"l2N" -> "+1604;", /* Arabic Letter Lam */
+"l2n" -> "+1604;", /* Arabic Letter Lam */
+
+/*supress Allah glyph*/
+"lla0" -> "+1604;+1600;+1604;+1607; ", 
+"lle0" -> "+1604;+1600;+1604;+1607; ",
+
+/* Allah glyph */
+"Allah" -> "+65010;",
+"A4llwa6h" -> "+1575;+65010;",
+"lilwa6h" -> "+65010;",
+
+/* Shadda */
+"w2" -> "+1617;", /* Arabic Shadda */
+"bw" -> "+1576;+1617;", /* Arabic Letter Beh; Arabic Shadda */
+"cw" -> "+1580;+1617;", /* Arabic Letter Jeem; Arabic Shadda */
+"dw" -> "+1583;+1617;", /* Arabic Letter Dal; Arabic Shadda */
+"fw" -> "+1601;+1617;", /* Arabic Letter Feh; Arabic Shadda */
+"gw" -> "+1603;+1617;", /* Arabic Letter Kaf; Arabic Shadda */
+"hw" -> "+1607;+1617;", /* Arabic Letter Heh; Arabic Shadda */
+"kw" -> "+1603;+1617;", /* Arabic Letter Kaf; Arabic Shadda */
+"lw" -> "+1604;+1617;", /* Arabic Letter Lam; Arabic Shadda */
+"mw" -> "+1605;+1617;", /* Arabic Letter Meem; Arabic Shadda */
+"nw" -> "+1606;+1617;", /* Arabic Letter Noon; Arabic Shadda */
+"pw" -> "+1662;+1617;", /* Arabic Letter Peh; Arabic Shadda */
+"rw" -> "+1585;+1617;", /* Arabic Letter Reh; Arabic Shadda */
+"sw" -> "+1587;+1617;", /* Arabic Letter Seen; Arabic Shadda */
+"tw" -> "+1578;+1617;", /* Arabic Letter Teh; Arabic Shadda */
+"vw" -> "+1608;+1617;", /* Arabic Letter Waw; Arabic Shadda */
+"yw" -> "+1610;+1617;", /* Arabic Letter Yeh; Arabic Shadda */
+"zw" -> "+1586;+1617;", /* Arabic Letter Zain; Arabic Shadda */
+
+/* CONSONANTS */
+
+"B7" -> "+1576;", /* Arabic Letter Beh */
+"b7" -> "+1576;", /* Arabic Letter Beh */
+"B" -> "+1576;", /* Arabic Letter Beh */
+"b" -> "+1576;", /* Arabic Letter Beh */
+
+"C2" -> "+1670;", /* Arabic Letter Tcheh */
+"c2" -> "+1670;", /* Arabic Letter Tcheh */
+"C7" -> "+1580;", /* Arabic Letter Jeem */
+"c7" -> "+1580;", /* Arabic Letter Jeem */
+"C" -> "+1580;", /* Arabic Letter Jeem */
+"c" -> "+1580;", /* Arabic Letter Jeem */
+
+"D2" -> "+1583;", /* Arabic Letter Dal */
+"d2" -> "+1583;", /* Arabic Letter Dal */
+"D3" -> "+1583;", /* Arabic Letter Dal */
+"d3" -> "+1583;", /* Arabic Letter Dal */
+"D6" -> "+1591;", /* Arabic Letter Tah */
+"d6" -> "+1591;", /* Arabic Letter Tah */
+"D7" -> "+1583;", /* Arabic Letter Dal */
+"d7" -> "+1583;", /* Arabic Letter Dal */
+"D" -> "+1583;", /* Arabic Letter Dal */
+"d" -> "+1583;", /* Arabic Letter Dal */
+
+"F" -> "+1601;", /* Arabic Letter Feh */
+"f" -> "+1601;", /* Arabic Letter Feh */
+
+"G2" -> "+1603;", /* Arabic Letter Kaf */
+"g2" -> "+1603;", /* Arabic Letter Kaf */
+"G3" -> "+1603;", /* Arabic Letter Kaf */
+"g3" -> "+1603;", /* Arabic Letter Kaf */
+"G4" -> "+1594;", /* Arabic Letter Ghain */
+"g4" -> "+1594;", /* Arabic Letter Ghain */
+"G5" -> "+1594;", /* Arabic Letter Ghain */
+"g5" -> "+1594;", /* Arabic Letter Ghain */
+"G6" -> "+1603;", /* Arabic Letter Kaf */
+"g6" -> "+1603;", /* Arabic Letter Kaf */
+"G" -> "+1603;", /* Arabic Letter Kaf */
+"g" -> "+1603;", /* Arabic Letter Kaf */
+
+"H2" -> "+1581;", /* Arabic Letter Hah */
+"h2" -> "+1581;", /* Arabic Letter Hah */
+"H3" -> "+1581;", /* Arabic Letter Hah */
+"h3" -> "+1581;", /* Arabic Letter Hah */
+"H5" -> "+1582;", /* Arabic Letter Khah */
+"h5" -> "+1582;", /* Arabic Letter Khah */
+"H" -> "+1607;", /* Arabic Letter Heh */
+"h" -> "+1607;", /* Arabic Letter Heh */
+
+"J" -> "+1688:", /* Arabic Letter Jeh */
+"j" -> "+1688;", /* Arabic Letter Jeh */
+
+"K2" -> "+1602;", /* Arabic Letter Qaf */
+"k2" -> "+1602;", /* Arabic Letter Qaf */
+"K3" -> "+1602;", /* Arabic Letter Qaf */
+"k3" -> "+1602;", /* Arabic Letter Qaf */
+"K" -> "+1603;", /* Arabic Letter Kaf */
+"k" -> "+1603;", /* Arabic Letter Kaf */
+
+"L" -> "+1604;", /* Arabic Letter Lam */
+"l" -> "+1604;", /* Arabic Letter Lam */
+
+
+
+"M" -> "+1605;", /* Arabic Letter Meem */
+"m" -> "+1605;", /* Arabic Letter Meem */
+
+"N2" -> "+1606;", /* Arabic Letter Noon */
+"n2" -> "+1606;", /* Arabic Letter Noon */
+"N6" -> "+1603;", /* Arabic Letter Kaf */
+"n6" -> "+1603;", /* Arabic Letter Kaf */
+"N" -> "+1606;", /* Arabic Letter Noon */
+"n" -> "+1606;", /* Arabic Letter Noon */
+
+"p" -> "+1662;", /* Arabic Letter Peh */
+"P" -> "+1662;", /* Arabic Letter Peh */
+
+"R" -> "+1585;", /* Arabic Letter Reh */
+"r" -> "+1585;", /* Arabic Letter Reh */
+
+"S2" -> "+1588;", /* Arabic Letter Sheen */
+"s2" -> "+1588;", /* Arabic Letter Sheen */
+"S3" -> "+1589;", /* Arabic Letter Sad */
+"s3" -> "+1589;", /* Arabic Letter Sad */
+"S4" -> "+1587;", /* Arabic Letter Seen */
+"s4" -> "+1587;", /* Arabic Letter Seen */ 
+"S5" -> "+1579;", /* Arabic Letter Theh */
+"s5" -> "+1579;", /* Arabic Letter Theh */
+"S" -> "+1587;", /* Arabic Letter Seen */
+"s" -> "+1587;", /* Arabic Letter Seen */ 
+
+"T2" -> "+1591;", /* Arabic Letter Tah */
+"t2" -> "+1591;", /* Arabic Letter Tah */
+"T3" -> "+1591;", /* Arabic Letter Tah */
+"t3" -> "+1591;", /* Arabic Letter Tah */
+"T6" -> "+1583;", /* Arabic Letter Dal */
+"t6" -> "+1583;", /* Arabic Letter Dal */
+"T7" -> "+1577;", /* Arabic Letter Teh Marbuta */
+"t7" -> "+1577;", /* Arabic Letter Teh Marbuta */
+"T" -> "+1578;", /* Arabic Letter Teh */
+"t" -> "+1578;", /* Arabic Letter Teh */
+
+"V2" -> " +1608; ", /* Arabic Letter Waw */
+"v2" -> " +1608; ", /* Arabic Letter Waw */
+"V3" -> " +1608; ", /* Arabic Letter Waw */
+"v3" -> " +1608; ", /* Arabic Letter Waw */
+"V" -> "+1608;", /* Arabic Letter Waw */
+"v" -> "+1608;", /* Arabic Letter Waw */
+
+"Y" -> "+1610;", /* Arabic Letter Yeh */
+"y" -> "+1610;", /* Arabic Letter Yeh */
+
+"Z2" -> "+1592;", /* Arabic Letter Zah */
+"z2" -> "+1592;", /* Arabic Letter Zah */
+"Z3" -> "+1592;", /* Arabic Letter Zah */
+"z3" -> "+1592;", /* Arabic Letter Zah */
+"Z4" -> "+1590;", /* Arabic Letter Dad */
+"z4" -> "+1590;", /* Arabic Letter Dad */
+"Z5" -> "+1584;", /* Arabic Letter Thal */
+"z5" -> "+1584;", /* Arabic Letter Thal */
+"Z" -> "+1586;", /* Arabic Letter Zain */
+"z" -> "+1586;", /* Arabic Letter Zain */
+
+/* INITIAL VOWELS */
+
+" A0" -> "",
+" a0" -> "",
+" A1" -> "",
+" a1" -> "",
+" A2" -> " +1570;", /* Arabic Letter Alef With Madda Above */
+" a2" -> " +1570;", /* Arabic Letter Alef With Madda Above */
+" A3" -> " +1570;", /* Arabic Letter Alef With Madda Above */
+" a3" -> " +1570;", /* Arabic Letter Alef With Madda Above */
+" A4" -> " +1575;", /* Arabic Letter Alef */
+" a4" -> " +1575;", /* Arabic Letter Alef */
+" A5" -> " +1575;", /* Arabic Letter Alef */
+" a5" -> " +1575;", /* Arabic Letter Alef */
+" A6" -> "",
+" a6" -> "",
+" A7" -> "",
+" a7" -> "",
+" A8" -> "",
+" a8" -> "",
+" A9" -> "",
+" a9" -> "",
+" A" -> "",
+" a" -> "",
+" E0" -> "",
+" e0" -> "",
+" E2" -> " +1575;+1610;", /* Arabic Letter Alef; Arabic Letter Yeh*/
+" e2" -> " +1575;+1610;", /* Arabic Letter Alef; Arabic Letter Yeh*/
+" E3" -> "",
+" e3" -> "",
+" E4" -> "",
+" e4" -> "",
+" E5" -> " +1575;", /* Arabic Letter Alef */
+" e5" -> " +1575;", /* Arabic Letter Alef */
+" E6" -> "",
+" e6" -> "",
+" E7" -> "",
+" e7" -> "",
+" E8" -> "",
+" e8" -> "",
+" E9" -> "",
+" e9" -> "",
+" E" -> "",
+" e" -> "",
+" I0" -> "",
+" i0" -> "",
+" I1" -> "",
+" i1" -> "",
+" I2" -> " +1575;+1610;", /* Arabic Letter Alef; Arabic Letter Yeh*/
+" i2" -> " +1575;+1610;", /* Arabic Letter Alef; Arabic Letter Yeh*/
+" I3" -> " +1575;+1610;", /* Arabic Letter Alef; Arabic Letter Yeh*/
+" i3" -> " +1575;+1610;", /* Arabic Letter Alef; Arabic Letter Yeh*/
+" I4" -> " +1575;", /* Arabic Letter Alef */
+" i4" -> " +1575;", /* Arabic Letter Alef */
+" I5" -> " +1575;", /* Arabic Letter Alef */ 
+" i5" -> " +1575;", /* Arabic Letter Alef */
+" I6" -> "",
+" i6" -> "",
+" I7" -> "",
+" i7" -> "",
+" I8" -> "",
+" i8" -> "",
+" I9" -> "",
+" i9" -> "",
+" I" -> "",
+" i" -> "",
+" O0" -> "",
+" o0" -> "",
+" O1" -> "",
+" o1" -> "",
+" O2" -> " +1575;+1608;", /* Arabic Letter Alef; Arabic Letter Waw */
+" o2" -> " +1575;+1608;", /* Arabic Letter Alef; Arabic Letter Waw */
+" O3" -> " +1575;+1608;", /* Arabic Letter Alef; Arabic Letter Waw */
+" o3" -> " +1575;+1608;", /* Arabic Letter Alef; Arabic Letter Waw */
+" O4" -> "+1575;", /* Arabic Letter Alef */
+" o4" -> "+1575;", /* Arabic Letter Alef */
+" O5" -> " ", /* Arabic Letter Alef */
+" o5" -> " ", /* Arabic Letter Alef */
+" O6" -> "",
+" o6" -> "",
+" O7" -> "",
+" o7" -> "",
+" O8" -> "",
+" o8" -> "",
+" O9" -> "",
+" o9" -> "",
+" O" -> "",
+" o" -> "",
+" U0" -> "",
+" u0" -> "",
+" U1" -> "",
+" u1" -> "",
+" U2" -> " +1575;+1608;", /* Arabic Letter Alef; Arabic Letter Waw */
+" u2" -> " +1575;+1608;", /* Arabic Letter Alef; Arabic Letter Waw */
+" U3" -> " +1575;+1608;", /* Arabic Letter Alef; Arabic Letter Waw */
+" u3" -> " +1575;+1608;", /* Arabic Letter Alef; Arabic Letter Waw */
+" U4" -> " +1575;", /* Arabic Letter Alef */ 
+" u4" -> " +1575;", /* Arabic Letter Alef */
+" U5" -> " +1575;", /* Arabic Letter Alef */
+" u5" -> " +1575;", /* Arabic Letter Alef */
+" U6" -> "",
+" u6" -> "",
+" U7" -> "",
+" u7" -> "",
+" U8" -> "",
+" u8" -> "",
+" U9" -> " +1609;",
+" u9" -> " +1609;",
+" U" -> "",
+" u" -> "",
+
+/* FINAL VOWELS */
+
+"A0 " -> "+1607;+8204; ", /* Arabic Letter Heh */
+"a0 " -> "+1607;+8204; ", /* Arabic Letter Heh */
+"A1 " -> "+1575; ", /* Arabic Letter Alef */
+"a1 " -> "+1575; ", /* Arabic Letter Alef */
+"A2 " -> "+1570; ", /* Arabic Letter Alef With Madda Above */
+"a2 " -> "+1570; ", /* Arabic Letter Alef With Madda Above */
+"A3 " -> "+1570; ", /* Arabic Letter Alef With Madda Above */
+"a3 " -> "+1570; ", /* Arabic Letter Alef With Madda Above */
+"A4 " -> "",
+"a4 " -> "",
+"A5 " -> "",
+"a5 " -> "",
+"A6 " -> "+1648; ", /* Arabic Letter Superscript Alef */
+"a6 " -> "+1648; ", /* Arabic Letter Superscript Alef */
+"A7 " -> "+1575; ", /* Arabic Letter Alef */
+"a7 " -> "+1575; ", /* Arabic Letter Alef */
+"A8 " -> "+1575;+1608; ", /* Arabic Letter Alef Arabic Letter Waw; */
+"a8 " -> "+1575;+1608; ", /* Arabic Letter Alef Arabic Letter Waw; */
+"A9 " -> "+1610; ", /* Arabic Letter Yeh */
+"a9 " -> "+1610; ", /* Arabic Letter Yeh */
+"A " -> "",
+"a " -> "",
+"E0 " -> "+1607;+8204; ", /* Arabic Letter Heh */
+"e0 " -> "+1607;+8204; ", /* Arabic Letter Heh */
+"E3 " -> "",
+"e3 " -> "",
+"E4 " -> "",
+"e4 " -> "",
+"E5 " -> "",
+"e5 " -> "",
+"E6 " -> "+1611; ",
+"e6 " -> "+1611; ",
+"E7 " -> "+1611; ",
+"e7 " -> "+1611; ",
+"E8 " -> "+1612; ",
+"e8 " -> "+1612; ",
+"E9 " -> "+1613; ",
+"e9 " -> "+1613; ",
+"E " -> "",
+"e " -> "",
+"I0 " -> "",
+"i0 " -> "",
+"I1 " -> "+1609; ", /* Arabic Letter Yeh */
+"i1 " -> "+1609; ", /* Arabic Letter Yeh */
+"I6 " -> "+1609; ", /* Arabic Letter Yeh */
+"i6 " -> "+1609; ", /* Arabic Letter Yeh */
+"I7 " -> "+1609; ", /* Arabic Letter Yeh */
+"i7 " -> "+1609; ", /* Arabic Letter Yeh */
+"I8 " -> "+1607; ", /* Arabic Letter Heh */
+"i8 " -> "+1607; ", /* Arabic Letter Heh */
+"I9 " -> "+1610;+1608; ", /* Arabic Letter Yeh; Arabic Letter Waw */
+"i9 " -> "+1610;+1608; ", /* Arabic Letter Yeh; Arabic Letter Waw */
+"I " -> "",
+"i " -> "",
+"o0 " -> "",
+"o0 " -> "",
+"O1 " -> "+1608; ", /* Arabic Letter Waw */
+"o1 " -> "+1608; ", /* Arabic Letter Waw */
+"O2 " -> "",
+"o2 " -> "",
+"O3 " -> "",
+"o3 " -> "",
+"O4 " -> "",
+"o4 " -> "",
+"O5 " -> "",
+"o5 " -> "",
+"O6 " -> "+1608; ", /* Arabic Letter Waw */
+"o6 " -> "+1608; ", /* Arabic Letter Waw */
+"O7 " -> "+1608; ", /* Arabic Letter Waw */
+"o7 " -> "+1608; ", /* Arabic Letter Waw */
+"O8 " -> "",
+"o8 " -> "",
+"O9 " -> "",
+"o9 " -> "",
+"O " -> "",
+"o " -> "",
+"U0 " -> "",
+"u0 " -> "",
+"U1 " -> "+1608; ", /* Arabic Letter Waw */
+"u1 " -> "+1608; ", /* Arabic Letter Waw */
+"U2 " -> "",
+"u2 " -> "",
+"U3 " -> "",
+"u3 " -> "",
+"U4 " -> "",
+"u4 " -> "",
+"U5 " -> "",
+"u5 " -> "",
+"U6 " -> "+1608; ", /* Arabic Letter Waw */
+"u6 " -> "+1608; ", /* Arabic Letter Waw */
+"U7 " -> "+1608; ", /* Arabic Letter Waw */
+"u7 " -> "+1608; ", /* Arabic Letter Waw */
+"U8 " -> "+1609; ", /* Arabic Letter Yeh */
+"u8 " -> "+1609; ", /* Arabic Letter Yeh */
+"U9 " -> "+1609; ", /* Arabic Letter Yeh */
+"u9 " -> "+1609; ", /* Arabic Letter Yeh */
+"U " -> "",
+"u " -> "",
+
+
+/* MEDIAL VOWELS */
+
+"A0" -> "+1607;+8204; ", /* Arabic Letter Heh */
+"a0" -> "+1607;+8204; ",, /* Arabic Letter Heh */
+"A1" -> "+1575;", /* Arabic Letter Alef */
+"a1" -> "+1575;", /* Arabic Letter Alef */
+"A2" -> "+1570;", /* Arabic Letter Alef With Madda Above */
+"a2" -> "+1570;", /* Arabic Letter Alef With Madda Above */
+"A3" -> "+1570;", /* Arabic Letter Alef With Madda Above */
+"a3" -> "+1570;", /* Arabic Letter Alef With Madda Above */
+"A4" -> "",
+"a4" -> "",
+"A5" -> "",
+"a5" -> "",
+"A6" -> "+1648;", /* Arabic Letter Superscript Alef */
+"a6" -> "+1648;", /* Arabic Letter Superscript Alef */
+"A7" -> "+1575;", /* Arabic Letter Alef */
+"a7" -> "+1575;", /* Arabic Letter Alef */
+"A8" -> "+1575;+1608;", /* Arabic Letter Alef; Arabic Letter Waw */
+"a8" -> "+1575;+1608;", /* Arabic Letter Alef; Arabic Letter Waw */
+"A9" -> "+1610;", /* Arabic Letter Yeh */
+"a9" -> "+1610;", /* Arabic Letter Yeh */
+"A" -> "",
+"a" -> "",
+"E0" -> "+1607;+8204; ", /* Arabic Letter Heh */
+"e0" -> "+1607;+8204; ", /* Arabic Letter Heh */
+"E1" -> "+1610;", /* Arabic Letter Yeh */
+"e1" -> "+1610;", /* Arabic Letter Yeh */
+"E2" -> "+1610;", /* Arabic Letter Yeh */
+"e2" -> "+1610;", /* Arabic Letter Yeh */
+"E3" -> "",
+"e3" -> "",
+"E4" -> "",
+"e4" -> "",
+"E5" -> "",
+"e5" -> "",
+"E6" -> "",
+"e6" -> "",
+"E7" -> "",
+"e7" -> "",
+"E8" -> "",
+"e8" -> "",
+"E9" -> "",
+"e9" -> "",
+"E" -> "",
+"e" -> "",
+"I0" -> "",
+"i0" -> "",
+"I1" -> "+1610;", /* Arabic Letter Yeh */
+"i1" -> "+1610;", /* Arabic Letter Yeh */
+"I2" -> "",
+"i2" -> "",
+"I3" -> "+1610;", /* Arabic Letter Yeh */
+"i3" -> "+1610;", /* Arabic Letter Yeh */
+"I4" -> "",
+"i4" -> "",
+"I5" -> "",
+"i5" -> "",
+"I6" -> "+1610;", /* Arabic Letter Yeh */
+"i6" -> "+1610;", /* Arabic Letter Yeh */
+"I7" -> "+1610;", /* Arabic Letter Yeh */
+"i7" -> "+1610;", /* Arabic Letter Yeh */
+"I8" -> "+1607;", /* Arabic Letter Heh */
+"i8" -> "+1607;", /* Arabic Letter Heh */
+"I9" -> "+1610;+1608;", /* Arabic Letter Yeh; Arabic Letter Waw */
+"i9" -> "+1610;+1608;", /* Arabic Letter Yeh; Arabic Letter Waw */
+"I" -> "",
+"i" -> "",
+"O0 -> "",
+"o0 -> "",
+"O1" -> "+1608;", /* Arabic Letter Waw */
+"o1" -> "+1608;", /* Arabic Letter Waw */
+"O2" -> "",
+"o2" -> "",
+"O3" -> "",
+"o3" -> "",
+"O4" -> "",
+"o4" -> "",
+"O5" -> "",
+"o5" -> "",
+"O6" -> "+1608;", /* Arabic Letter Waw */
+"o6" -> "+1608;", /* Arabic Letter Waw */
+"O7" -> "+1608;", /* Arabic Letter Waw */
+"o7" -> "+1608;", /* Arabic Letter Waw */
+"O8" -> "",
+"o8" -> "",
+"O9" -> "",
+"o9" -> "",
+"O" -> "",
+"o" -> "",
+"U0" -> "",
+"u0" -> "",
+"U1" -> "+1608;", /* Arabic Letter Waw */
+"u1" -> "+1608;", /* Arabic Letter Waw */
+"U2" -> "",
+"u2" -> "",
+"U3" -> "",
+"u3" -> "",
+"U4" -> "",
+"u4" -> "",
+"U5" -> "",
+"u5" -> "",
+"U6" -> "+1608;", /* Arabic Letter Waw */
+"u6" -> "+1608;", /* Arabic Letter Waw */
+"U7" -> "+1608;", /* Arabic Letter Waw */
+"u7" -> "+1608;", /* Arabic Letter Waw */
+"U8" -> "+1610;", /* Arabic Letter Yeh */
+"u8" -> "+1610;", /* Arabic Letter Yeh */
+"U9" -> "+1610;", /* Arabic Letter Yeh */
+"u9" -> "+1610;", /* Arabic Letter Yeh */
+"U" -> "",
+"u" -> "",
+
+/* SPECIAL */
+
+"-7" -> "",
+"-6" -> "",
+"-5" -> "",
+"-4" -> "",
+"-3" -> "",
+"-2" -> "",
+"-1" -> " ",
+"'2" -> "+1593;", /* Arabic Letter Ain */
+"'3" -> "+x0621;",
+"'4" -> " +1575;", /* Arabic Letter Alef */ 
+"'5" -> " +1575;" /* Arabic Letter Alef */ 
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthUserFile .htpasswd
+AuthName "Reversible Transcription Tool"
+require user transcriber
